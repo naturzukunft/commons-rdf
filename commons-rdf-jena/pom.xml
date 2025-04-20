@@ -68,10 +68,9 @@
 		</dependency>
 				--> 
 
-		<!-- As commons-rdf-jena is an OSGi bundle, we'll use the Jena OSGi bundle -->
 		<dependency>
 			<groupId>org.apache.jena</groupId>
-			<artifactId>jena-osgi</artifactId>
+			<artifactId>jena-arq</artifactId>
 			<version>${jena.version}</version>
 		</dependency>
 
